@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+    <div id="app">
+        {{counter}}
+        <button @click="counter++">Artır</button>
+        <button @click="counter--">Azalt</button>
+        {{kontrol}}
+        {{counter2}}
+        <button @click="counter2++">Artır</button>
+        <button @click="counter2--">Azalt</button>
+        {{kontrol2}}
+        {{rastgeleSayi()}}
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
